@@ -19,12 +19,12 @@ public class App {
         List<StructNameClass> processesDbStruct = ExecuteTaskBuffer.taskBuffer();;
 
 
-  /*      for (StructNameClass proc : processesDbStruct){
+        for (StructNameClass proc : processesDbStruct){
             System.out.println(proc.getImageName() + "   "+ proc.getPID()
                     + "   "+ proc.getSessionNum()
                     + "   "+ proc.getSessionName()
                     + "   "+ proc.getMemUssage());
-        }*/
+        }
 
 
     }
